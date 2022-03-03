@@ -1,0 +1,215 @@
+body{
+  background: #404040;
+  text-align: center;
+  font-family: 'Harmattan', sans-serif;
+
+}
+.b1 {
+      color: white;
+      font-family: 'Alfa Slab One', cursive;
+      font-size: 35px;
+}
+
+.b2 {
+      color: #DAA520;
+      font-family: 'Alfa Slab One', cursive;
+      font-size: 35px;
+}
+
+.p1{
+
+
+    text-align: center;
+}
+ol {
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #484848;
+
+}
+
+.lli {
+  float: right;
+  border-right:1px solid #DAA520;
+}
+
+.lli :last-child {
+  border-right: none;
+}
+
+.lli .alli {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.lli .alli:hover:not(.active) {
+  background-color: #DAA520;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.namefilm{
+
+font-size: 15px;
+
+}
+
+/*___________________________________________*/
+article.poster {
+    float: right;
+}
+article.poster {
+  display: flex;
+  justify-content: space-between | space-around;
+    width: 229px;
+    height: 337px;
+    margin: 5px 5px;
+    overflow: hidden;
+    position: relative;
+}
+article.poster:hover .info {
+    opacity: 1;
+    bottom: 0;
+}
+.info {
+    padding: 10px;
+    position: absolute;
+    bottom: -200px;
+    width: 229px;
+    height: 200px;
+    transition: all 0.5s ease;
+}
+.info {
+    background: transparent!important;
+    padding: 10px;
+    position: absolute;
+    bottom: -240px;
+    width: 229px;
+    height: 200px;
+    transition: all 0.5s ease;
+    color: black;
+}
+
+.card_content,.info {
+  padding: 10px;
+  position: absolute;
+  bottom: -300px;
+  width: 220px;
+  height: 255px;
+  transition: all 0.5s ease;
+}
+article.poster .filter-grey {
+	-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+article.poster:hover{
+    box-shadow:1px 1px 8px #DAA520,-1px -1px 8px #DAA520;
+}
+article.poster:hover .card_content {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(10px);
+     filter: progid:DXImageTransform.Microsoft.Blur(Strength=15);
+   opacity: 0.90;
+      bottom: 0;
+}
+article.poster:hover .info{
+    opacity: 1;
+    bottom: 0;
+}
+
+article.poster .info h3 {
+font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
+font-size: 20px;
+  color: #ebebeb;
+  text-shadow:0px 1px 2px #545454,0px -1px 2px #686868;
+  text-align: center;
+ margin: 1px;
+ padding: 1px;
+  }
+article.poster .info h4 {
+font-family: amazon-bold;
+font-size: 17px;
+  color: #d4d4d4;
+  text-align: center;
+  text-shadow:0px 1px 2px #686868,0px -1px 2px #686868;
+ margin: 1px;
+ padding: 1px;
+   }
+article.poster .info .rate {
+border-bottom: 1px solid #8c8b88;
+border-top: 1px solid #8c8b88;
+margin: 3px 5px;
+padding: 1px 4px;
+  text-align: center;
+  color: #d4d4d4;
+  }
+
+ article.poster .info .rate a {
+font-size: 12px;
+  text-align: center;
+  color: #fbfbfb;
+  }
+
+article.poster .info .fushaar-rate {
+	display: none;
+}
+article.poster .info .rate .greyinfo{
+  color: #d4d4d4;
+  text-shadow:0px 1px 2px #DAA520,0px -1px 2px #686868;
+
+  }
+
+article.poster .info ul.labels{
+clear: both;
+margin: 2px 0px;
+padding: 0px;
+list-style: none;
+text-align: center;
+}
+
+article.poster .info  ul.labels li{
+ display: inline-block;
+ padding: 2px 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #DAA520;
+  border-radius: 5px;
+  background-color: rgb( 51, 51, 51 );
+  opacity: 0.502;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+ }
+
+
+  @media screen and (max-width: 600px) {
+  	.menu-toggle,
+  	.main-navigation.toggled .nav-menu {
+  		display: block;
+  	}
+
+  	.main-navigation ul {
+  		display: none;
+  	}
+
+
+
+/*ـــــــــــــ__________________*/
+
+
+
+
+
+/*ـــــــــــــ__________________*/
